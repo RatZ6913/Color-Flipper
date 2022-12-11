@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: bisque;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(34, 134, 134);
+  align-self: center;
+  margin: auto;
+  width: 40%;
+  height: 55%;
+}
+
+section div {
+  align-self: center;
+  margin: auto;
+}
+
+#click {
+  align-self: center;
+  margin: auto;
+  background-color: white;
+  border-color: orange;
+  color: rgb(34, 134, 134);
+}
+
+#click:hover {
+  color: white;
+  background-color: rgb(34, 134, 134);
+}
+
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: white;
+}
+
